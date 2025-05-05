@@ -1,0 +1,364 @@
+*{
+    font-family: "Fraunces", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.parent{
+    
+    margin-top: 10px;
+}
+.logo{
+    width: 80px;
+    height: auto;
+}
+.child {
+    margin: auto;
+    width: 50%;
+}
+
+.form{
+    width: 50%;
+    margin: auto;
+}
+
+.icons{
+    color: #631517;
+}
+.icons span{
+    padding: 15px;
+    font-size: 20px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 25px;
+    padding: 7px 20px 7px 10px ;
+    /* width: 450px; */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
+    border: 1px solid #ddd;
+    margin-left: 20px;
+}
+
+.search-box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #704242;
+    padding: 8px;
+    background: transparent;
+}
+
+.search-icon, .camera-icon, .mic-icon {
+    color: #704242;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0 8px;
+}
+
+.horizontal-menu {
+    display: flex;
+    gap: 49px;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    overflow-x: auto;
+    padding: 27px 0;
+  }
+
+  .menu-item {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .menu-item i {
+    font-size: 18px;
+    margin-right: 8px;
+    color: #333;
+  }
+
+  .menu-item:hover {
+    color: #a70038;
+  }
+
+  .menu-item:hover i {
+    color: #a70038;
+  }
+  .text
+  {
+   text-align: center;
+   padding: 50px;
+
+  }
+  .text h1{
+    font-size: 40px;
+    color: #300708;
+  }
+
+  .text p{
+    font-size: 24px;
+    color: #300708;
+    font-weight: 300;
+
+
+  }
+  .textimg1{
+    width: 230px;
+
+  }
+  .textimg1 img{
+    width: 239.86px;
+    height: 239.86 px;
+    border-radius: 10px;
+  }
+  .textimg2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .textimg1 h5{
+    font-size: 16px;
+    padding-top: 20px;
+  }
+  .colour {
+    color: #999999;
+    text-decoration: line-through;
+
+  }
+  .textone{
+    display: flex;
+    justify-content: space-around;
+  }
+  .imgsecond img{
+
+    width: 595px;
+    border-radius: 10px;
+  }
+
+  .imagethird{
+    display: flex;
+  }
+  .imgfive img{
+    width: 595px;
+    height: 340px;
+    border-radius: 10px;
+    margin-left: 35px;
+  }
+  .imgsix img{
+    width: 595px;
+    height: 340px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 35px;
+
+
+  }
+
+  .imgeight img{
+
+    width: 283.2px;
+    height: 344.77px;
+    border-radius: 10px;
+  }
+
+
+
+  .imgeight p{
+    font-size: 18px;
+    color: black;
+    padding: 25px;
+    width: 275px;
+    text-align: center;
+  }
+
+  .imgseven{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .left-side-image {
+    width: 560px;
+    height: 340px;
+    position: relative;
+    margin: auto;
+    object-fit: ;
+}
+
+.left-side-image img,
+.right-side-img img,
+.left-side-bottom img,
+.right-side-bottom img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.right-side-img {
+    width: 590px;
+    height: 360px;
+    position: relative;
+}
+
+.left-side-bottom {
+    width: 560px;
+    height: 360px;
+    position: relative;
+    margin: auto;
+
+}
+
+.right-side-bottom {
+    width: 590px;
+    height: 338px;
+    margin-top: 20px;
+    position: relative;
+    
+}
+
+.hp-tq-pillars-heading {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(360deg, rgba(131, 39, 41, 1) 0%, rgba(131, 39, 41, 0.95) 5%, rgba(131, 39, 41, 0) 100%);
+    border-radius: 10px;
+    height: 120px;
+}
+
+.hp-tq-pillars-heading2 {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(360deg, rgba(131, 39, 41, 1) 0%, rgba(131, 39, 41, 0.95) 5%, rgba(131, 39, 41, 0) 100%);
+    border-radius: 10px;
+    height: 120px;
+
+}
+
+.hp-tq-pillars-heading3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(360deg, rgba(131, 39, 41, 1) 0%, rgba(131, 39, 41, 0.95) 5%, rgba(131, 39, 41, 0) 100%);
+    border-radius: 10px;
+    height: 120px;
+}
+
+.hp-tq-pillars-heading4 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgb(131, 39, 41);
+    background: linear-gradient(360deg, rgba(131, 39, 41, 1) 0%, rgba(131, 39, 41, 0.95) 5%, rgba(131, 39, 41, 0) 100%);
+    border-radius: 10px;
+    height: 120px;
+}
+
+
+.hp-tq-pillars-heading-h2,
+.hp-tq-pillars-heading2-h2,
+.hp-tq-pillars-heading3-h2,
+.hp-tq-pillars-heading4-h2 {
+    font-family: "Fraunces", serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    bottom: 30px;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.col-lg-12 {
+    padding: unset !important;
+    margin: unset !important;
+    position: relative;
+}
+
+
+.col-lg-12 {
+    padding: unset !important;
+    margin: unset !important;
+    position: relative;
+}
+
+.left-position {
+    width: 550px;
+    height: 336px;
+    border-radius: 10px;
+    border: 12px solid #fff;
+    position: absolute;
+    top: 245px;
+    left: 190px;
+}
+
+.right-position {
+    width: 550px;
+    height: 336px;
+    border-radius: 10px;
+    border: 12px solid #fff;
+    position: absolute;
+    top: 245px;
+    right: 210px;
+}
+
+.left-position img,
+.right-position img {
+    width: 100%;
+    height: 100%;
+}
+
+.backimage {
+    width: auto;
+    height: 400px;
+    position: relative;
+}
+
+
+.backimage img {
+    width: 100%;
+    height: 100%;
+}
+
+.heading-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: 75px;
+    left: 115px;
+}
+
+.right-icon {
+    background-color: rgb(187, 185, 185);
+    border-radius: 30px;
+    padding: 10px 20px;
+    opacity: 0.7;
+    color: #fff;
+}
+
+.newarrivals {
+    color: #fff;
+}
+
+.para-heading {
+    width: 606px;
+    position: absolute;
+    top: 125px;
+    left: 115px;
+    color: #fff;
+    font-size: 22px;
+}
+.texten1{
+    font-size: 24px;
+}
