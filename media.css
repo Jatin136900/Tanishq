@@ -1,0 +1,183 @@
+@media screen and (min-width:320px) and (max-width:570px){
+
+.logo{
+    width: 90px;
+}
+
+
+
+.form{
+    width: 100%;
+}
+.icons{
+    margin-top: 20px;
+}
+.form{
+    margin-right: 50px;
+}
+.horizontal-menu{
+    flex-wrap: wrap;
+    width: unset;
+}
+
+.textone{
+    flex-direction: column;
+}
+.imagethird{
+    flex-direction: column;
+    padding-top: 40px;
+
+}
+.imgfive{
+    padding-top: 50px;
+    margin: unset;
+}
+.imgseven{
+    flex-direction: column;
+
+}
+
+.twmain{
+    flex-direction: column;
+
+}
+.bgimg1{
+    flex-direction: column;
+
+}
+.bgtwo{
+    flex-direction: column;
+
+}
+.background img
+    {
+    width: 100%;
+}
+.iron{
+    flex-direction: column;
+
+}
+.video-section{
+    flex-direction: column;
+
+}
+.card-carousel{
+    flex-direction: column;
+
+}
+
+.genderimg{
+    object-fit: cover;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+
+.genimg{
+    padding-top: 70px;
+}
+.gone{
+    width: 100%;
+}
+
+.imgsecond img{
+    width: 300px;
+}
+.imgfive img,
+.imgsix img
+{
+    /* object-fit: cover; */
+    width: 300px;
+    margin: unset;
+    padding-top: 50px;
+
+}
+
+.twmain img{
+    padding-top: 50px;
+}
+.footer{
+    height: unset !important;
+}
+
+
+.bgtwo{
+    padding-top: 200px;
+}
+.assurance{
+    padding-top: 200px;
+    flex-direction: column;
+
+}
+.assu2{
+    flex-direction: column;
+
+}
+.bg{
+    height: 690px !important;
+}
+.background{
+    position: relative !important;
+}
+.bgcon{
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    
+}
+.bgcon h1{
+    font-size: 14px !important;
+}
+.bgcon p{
+    font-size: 10px !important;
+}
+.items{
+    width: fit-content !important;
+    height: fit-content !important;
+}
+.new{
+    flex-direction: column;
+}
+.bgtwo{
+    flex-wrap:wrap ;
+}
+.bgimg1{
+    width: 100% !important;
+    height: 200px !important;
+}
+.bgimg1 p{
+    position: absolute !important;
+    bottom: 0;
+    color: white;
+    font-size: 22px;
+    padding: 0 0  0 10px;
+}
+.assu{
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
