@@ -1,356 +1,442 @@
-@media screen and (min-width:320px) and (max-width:570px){
+@media screen and (min-width:320px) and (max-width:570px) {
 
-.logo{
-    width: 90px;
-}
-
-
-.bgtwo img{
-    margin: unset;
-    /* margin: unset; */
-    width: unset;
-    padding: unset;
+    .logo {
+        width: 90px;
+    }
 
 
-}
+    .bgtwo img {
+        margin: unset;
+        /* margin: unset; */
+        width: unset;
+        padding: unset;
 
 
-.form{
-    width: 100%;
-}
-.icons{
-    margin-top: 20px;
-}
-.form{
-    margin-right: 50px;
-}
-.horizontal-menu{
-    flex-wrap: wrap;
-    width: unset;
-}
-
-.textone{
-    flex-direction: column;
-}
-.imagethird{
-    flex-direction: column;
-    padding-top: 40px;
-
-}
-.imgfive{
-    padding-top: 50px;
-    margin: unset;
-}
-.imgseven{
-    flex-direction: column;
-
-}
-
-.twmain{
-    flex-direction: column;
-
-}
-.bgimg1{
-    flex-direction: column;
-
-}
-.bgtwo{
-    flex-direction: column;
-
-}
-.background img
-    {
-    width: 100%;
-}
-.iron{
-    flex-direction: column;
-
-}
-.video-section{
-    flex-direction: column;
-
-}
-.card-carousel{
-    flex-direction: column;
-
-}
-
-.genderimg{
-    object-fit: cover;
-    flex-direction: column;
-    padding-top: 50px;
-}
+    }
 
 
-.genimg{
-    padding-top: 70px;
-}
-.gone{
-    width: 100%;
-}
+    .form {
+        width: 100%;
+    }
 
-.imgsecond img{
+    .icons {
+        margin-top: 20px;
+    }
+
+    .form {
+        margin-right: 50px;
+    }
+
+    .horizontal-menu {
+        flex-direction: column;
+        width: unset;
+
+    }
+
+    .menu-item {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .textone {
+        flex-direction: column;
+    }
+
+    .textimg1 {
+        width: 100%;
+    }
+
+    .imagethird {
+        flex-direction: column;
+        padding-top: 40px;
+
+    }
+
+    .imgfive {
+        padding-top: 50px;
+        margin: unset;
+    }
+
+    .imgseven {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .twmain {
+        flex-direction: column;
+
+    }
+
+    .bgimg1 {
+        flex-direction: column;
+
+    }
+/* 
+    .bgtwo {
+        flex-xirection: column;
+
+    } */
+
+    .background img {
+        width: 100%;
+    }
+
+    .iron {
+        flex-direction: column;
+
+    }
+
+    .video-section {
+        flex-direction: column;
+
+    }
+
+    .card-carousel {
+        flex-direction: column;
+
+    }
+
+    .genderimg {
+        object-fit: cover;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+
+    .genimg {
+        padding-top: 70px;
+    }
+
+    .gone {
+        width: 100%;
+    }
+
+    /* .imgsecond img{
     width: 300px;
-}
-.imgfive img,
-.imgsix img
-{
-    /* object-fit: cover; */
-    width: 300px;
-    margin: unset;
-    padding-top: 50px;
+} */
+    .imgfive img,
+    .imgsix img {
+        /* object-fit: cover; */
+        /* width: 300px; */
+        margin: unset;
+        padding-top: 50px;
 
-}
-
-.twmain img{
-    padding-top: 50px;
-}
-.footer{
-    height: unset !important;
-}
-
-
-.bgtwo{
-    padding-top: 200px;
-}
-.assurance{
-    padding-top: 200px;
-    flex-direction: column;
-
-}
-.assu2{
-    flex-direction: column;
-
-}
-.bg{
-    height: 690px !important;
-}
-.background{
-    position: relative !important;
-}
-.bgcon{
-    position: absolute !important;
-    top: 0;
-    left: 0;
-    
-}
-.bgcon h1{
-    font-size: 14px !important;
-}
-.bgcon p{
-    font-size: 10px !important;
-}
-.items{
-    width: fit-content !important;
-    height: fit-content !important;
-}
-.new{
-    flex-direction: column;
-}
-.bgtwo{
-    flex-wrap:wrap ;
-}
-.bgimg1{
-    width: 100% !important;
-    height: 200px !important;
-}
-.bgimg1 p{
-    position: absolute !important;
-    bottom: 0;
-    color: white;
-    font-size: 22px;
-    padding: 0 0  0 10px;
-}
-.assu{
-    flex-direction: column;
-}
-
-.parent{
-    width: 100%;
-}
-
-
-
-
-/* @media screen and (min-width: 320px) and (max-width: 570px) { */
- 
-    .all{
-        flex-wrap: wrap !important;
     }
-    .form{
-        width: unset !important;
+
+    .twmain img {
+        padding-top: 50px;
     }
-    .logo{
-        margin: 0 0  0 10px;
+
+    .footer {
+        height: unset !important;
     }
-    .header{
-    padding: unset !important;
+
+
+    .bgtwo {
+        padding-top: 200px;
     }
-    .search-box{
-        margin: 10px 0 !important;
-        padding: unset !important;
+
+    .assurance {
+        padding-top: 200px;
+        flex-direction: column;
+
     }
-    .navbar-toggler{
-        background-color: blue;
-        border: solid 5px black;
+
+    .assu2 {
+        flex-direction: column;
+
     }
-    .offer h1{
-        font-size: 18px !important;
+
+    .bg {
+        height: 690px !important;
     }
-    .offer p{
+
+    .background {
+        position: relative !important;
+    }
+
+    .bgcon {
+        position: absolute !important;
+        top: 0;
+        left: 0;
+        width: unset;
+
+    }
+    .jay p{
+        /* font-size: 14px !important; */
+        text-align: center;
+    }
+
+    .bgcon h1 {
         font-size: 14px !important;
     }
-    .bestATimg{
+
+    .bgcon p {
+        font-size: 10px !important;
+    }
+
+    .items {
+        width: fit-content !important;
+        height: fit-content !important;
+    }
+
+    .new {
+        flex-direction: column;
+    }
+
+    .bgtwo {
         flex-wrap: wrap;
     }
-    .collection{
-        flex-wrap: wrap;
-    }
-    .climg1{
-        width: 100% !important;
-        height: 250px !important;
-    }
-    .climg{
-        width: 100% !important;
-        height: 250px !important;
-    }
-    .matchimg{
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-        margin: 0 ;
-        gap: 20px   !important;
-        width: unset !important;
-        height: unset !important;
-    }
-    .btmain2{
-        height: unset !important;
-    
-    }
-    .batimg2{
+
+    .bgimg1 {
         width: 100% !important;
         height: 200px !important;
     }
-    .batimg2 img{
-        width: 100% !important;
-        height:  100% !important;}
-    
-    .twmain{
-        width: unset !important; 
-        flex-wrap: wrap;   
+
+    .bgimg1 p {
+        position: absolute !important;
+        bottom: 0;
+        color: white;
+        font-size: 22px;
+        padding: 0 0 0 10px;
     }
-    .twimg{
+
+    .assu {
+        flex-direction: column;
+    }
+
+    .parent {
+        width: 100%;
+    }
+
+
+
+
+    /* @media screen and (min-width: 320px) and (max-width: 570px) { */
+
+    .all {
+        flex-wrap: wrap !important;
+    }
+
+    .form {
+        width: unset !important;
+    }
+
+    .logo {
+        margin: 0 0 0 10px;
+    }
+
+    .header {
+        padding: unset !important;
+    }
+
+    .search-box {
+        margin: 10px 0 !important;
+        padding: unset !important;
+    }
+
+    .navbar-toggler {
+        background-color: blue;
+        border: solid 5px black;
+    }
+
+    .offer h1 {
+        font-size: 18px !important;
+    }
+
+    .offer p {
+        font-size: 14px !important;
+    }
+
+    .bestATimg {
+        flex-wrap: wrap;
+    }
+
+    .collection {
+        flex-wrap: wrap;
+    }
+
+    .climg1 {
+        width: 100% !important;
+        height: 250px !important;
+    }
+
+    .climg {
+        width: 100% !important;
+        height: 250px !important;
+    }
+
+    .matchimg {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        gap: 20px !important;
+        width: unset !important;
+        height: unset !important;
+    }
+
+    .btmain2 {
+        height: unset !important;
+
+    }
+
+    .batimg2 {
+        width: 100% !important;
+        height: 200px !important;
+    }
+
+    .batimg2 img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    .twmain {
+        width: unset !important;
+        flex-wrap: wrap;
+    }
+
+    .twimg {
         flex-wrap: wrap;
         width: 100% !important;
     }
-    .twimg1,.twimg2{
-        width:100%  !important;
-    }
-    .twimg1,.twimg2 img{
+
+    .twimg1,
+    .twimg2 {
         width: 100% !important;
     }
-    .twone{
+
+    .twimg1,
+    .twimg2 img {
         width: 100% !important;
     }
-    .twcon p{
+
+    .twone {
+        width: 100% !important;
+    }
+
+    .twcon p {
         font-size: 14px !important;
         text-align: center !important;
     }
-    .bg{
+
+    .bg {
         height: 690px !important;
     }
-    .background{
+
+    .background {
         position: relative !important;
     }
-    .bgcon{
+
+    .bgcon {
         position: absolute !important;
         top: 20px;
         left: 20px;
-        
+        width: calc(100% - 20px);
     }
-    .bgcon h1{
+
+    .bgcon h1 {
         font-size: 14px !important;
-    
+
     }
-    .bgcon p{
+
+    .bgcon p {
         font-size: 10px !important;
     }
-    .items{
+
+    .items {
         width: 90px !important;
         height: 30px !important;
         margin: 0 0 10px 0 !important;
     }
-    
-    .new{
+
+    .new {
         flex-direction: column;
         align-items: unset !important;
-        
+
     }
-    .bgtwo{
-        flex-wrap:wrap ;
+
+    .bgtwo {
+        flex-wrap: wrap;
         align-items: center;
         position: absolute !important;
     }
-    .bgimg1{
+
+    .bgimg1 {
         width: 100% !important;
         height: 200px !important;
     }
-    .assu{
+
+    .assu {
         flex-wrap: wrap;
         align-items: center;
 
     }
-    .assu1{
+
+    .assu1 {
         flex-wrap: wrap;
         width: unset !important;
         height: unset !important;
     }
-    .assu1 h1{
+
+    .assu1 h1 {
         font-size: 16px !important;
     }
-    .assu1 p{
+
+    .assu1 p {
         font-size: 10px !important;
     }
-    .assu2{
+
+    .assu2 {
         flex-wrap: wrap;
         width: unset !important;
     }
-    .pro{
+
+    .pro {
         position: absolute;
         width: 70px !important;
         height: 20px !important;
         font-size: 7px;
         bottom: 20px;
     }
-    .exmaintop p{
+
+    .exmaintop p {
         font-size: 10px !important;
         width: 100% !important;
     }
-    .extimg{
+
+    .extimg {
         display: none;
     }
-    .genderimg{
+
+    .genderimg {
         flex-wrap: wrap;
         height: unset !important;
     }
-    .genimg{
+
+    .genimg {
         width: 100% !important;
         height: 250px !important;
         object-fit: cover;
     }
-    .genimg img{
+
+    .genimg img {
         width: 100% !important;
         height: 86% !important;
     }
-    .gmain{
+
+    .gmain {
         flex-wrap: wrap;
     }
-    .gone{
+
+    .gone {
         width: unset !important;
         height: 300px !important;
         position: relative;
     }
-    .gone::before{
+
+    .gone::before {
         content: " ";
         position: absolute;
         top: 0;
@@ -360,7 +446,8 @@
         background-color: #7a1f21;
         z-index: 1;
     }
-    .gone::after{
+
+    .gone::after {
         content: " ";
         position: absolute;
         bottom: 50px;
@@ -370,37 +457,45 @@
         background-color: #7a1f21;
         z-index: 1;
     }
-    .goc{
+
+    .goc {
         position: absolute;
         /* top: 20px;
         left: 70px; */
         z-index: 2;
     }
-    .gtwo{
+
+    .gtwo {
         width: unset !important;
         height: 300px !important;
     }
-    .goc h1{
+
+    .goc h1 {
         font-size: 16px !important;
     }
-    .goc span{
+
+    .goc span {
         font-size: 10px !important;
     }
-    .goc p{
-        font-size: 10px !important; 
+
+    .goc p {
+        font-size: 10px !important;
     }
-    .gimg{
+
+    .gimg {
         position: absolute;
         width: 50px !important;
         height: 50px !important;
         bottom: 20px;
         left: 20px;
     }
-    .gimg img{
+
+    .gimg img {
         width: 100% !important;
         height: 100% !important;
     }
-    .gone button{
+
+    .gone button {
         width: 70px !important;
         height: 20px !important;
         font-size: 7px !important;
@@ -408,68 +503,78 @@
         bottom: 20px;
         right: 20px;
     }
-    
-    
-    
-    .iron1 img{
+
+
+
+    .iron1 img {
         width: 300px;
     }
-    
-    
-    
-    
-    
-    
-    .video-section{
+
+
+
+
+
+
+    .video-section {
         flex-wrap: wrap !important;
-     
+
     }
-    .card-carousel{
+
+    .card-carousel {
         flex-wrap: wrap !important;
-        
+
     }
-    .card{
+
+    .card {
         height: 200px;
     }
-    .tanishq{
+
+    .tanishq {
         max-height: 2400px !important;
     }
-    .timg1{
+
+    .timg1 {
         flex-wrap: wrap;
         height: unset !important;
     }
-    .timg{
+
+    .timg {
         width: 100% !important;
         height: 260px !important;
         object-fit: cover;
     }
-    .timg p{
+
+    .timg p {
         padding: unset;
     }
-    .timg img{
+
+    .timg img {
         width: 100% !important;
-        height:86% !important;
+        height: 86% !important;
     }
-    .timg2{
+
+    .timg2 {
         flex-wrap: wrap;
         height: unset !important;
     }
-    
-    .footer{
+
+    .footer {
         height: unset !important;
     }
-    
+
     .footer-social-icons {
         flex-wrap: wrap !important;
     }
-    .footer-icons{
+
+    .footer-icons {
         flex-wrap: wrap !important;
     }
-    .footer-copyright{
+
+    .footer-copyright {
         flex-wrap: wrap !important;
     }
-    
-    .assuimg{
+
+    .assuimg {
         padding-bottom: 20px;
     }
 
@@ -477,60 +582,69 @@
 
 
 
-    .gmain{
+    .gmain {
         flex-wrap: wrap;
         height: unset !important;
         justify-content: unset !important;
         align-items: unset !important;
     }
-    .gone{
+
+    .gone {
         width: 100% !important;
         height: 300px !important;
         position: relative;
         margin-top: 30px;
     }
-    .gone::before{
+
+    .gone::before {
         content: " ";
         position: absolute !important;
         top: 0 px !important;
-        left: 50px  !important;
-        width: 20px  !important;
+        left: 50px !important;
+        width: 20px !important;
         height: 100% !important;
         background-color: #7a1f21;
         z-index: 1;
     }
-    .gone::after{
+
+    .gone::after {
         content: " ";
         position: absolute !important;
         bottom: 50px !important;
-        left: 0px  !important ;
+        left: 0px !important;
         width: 100% !important;
         height: 20px !important;
         background-color: #7a1f21 !important;
         z-index: 2;
-       
+
     }
-    .goc{
+
+    .goc {
         position: absolute;
         /* top: 20px;
         left: 70px; */
         z-index: 2;
     }
-    .gtwo{
+
+    .gtwo {
         width: 100% !important;
         height: 300px !important;
         /* display: none; */
     }
-    .goc h1{
+
+    .goc h1 {
         font-size: 16px !important;
     }
-    .goc span{
+
+    .goc span {
         font-size: 10px !important;
     }
-    .goc p{
-        font-size: 10px !important; 
+
+    .goc p {
+        font-size: 10px !important;
     }
-    .gimg{
+
+    .gimg {
         position: absolute;
         width: 50px !important;
         height: 50px !important;
@@ -538,11 +652,13 @@
         left: 35px;
         z-index: 3 !important;
     }
-    .gimg img{
+
+    .gimg img {
         width: 100% !important;
         height: 100% !important;
     }
-    .gone button{
+
+    .gone button {
         width: 70px !important;
         height: 20px !important;
         font-size: 7px !important;
@@ -550,17 +666,20 @@
         bottom: 120px;
         right: 20px;
     }
-    .gtimg{
+
+    .gtimg {
         width: 50px !important;
         height: 50px !important;
         position: absolute;
         left: 20px;
     }
-    .gtimg img{
+
+    .gtimg img {
         width: 100% !important;
         height: 100% !important;
     }
-    .gtcon{
+
+    .gtcon {
         position: absolute;
         width: unset !important;
         height: unset !important;
@@ -568,18 +687,22 @@
         bottom: 40px;
         left: 20px;
     }
-    .gtcon h1{
+
+    .gtcon h1 {
         font-size: 10px !important;
         width: 100% !important;
     }
-    .gtcon p{
+
+    .gtcon p {
         font-size: 10px !important;
         width: 100% !important;
     }
-    .gtcon span{
+
+    .gtcon span {
         font-size: 12px !important;
         width: 100% !important;
     }
+
     .gtwo button {
         width: 70px !important;
         height: 20px !important;
@@ -590,121 +713,95 @@
     }
 
 
-    
+
+}
+
+@media screen and (min-width:570px) and (max-width:768px) {
+
+
+    .horizontal-menu {
+        gap: 20px;
+        flex-wrap: wrap;
     }
 
-    @media screen and (min-width:570px) and (max-width:768px){
+    .icons {
+        margin-left: 32%;
+        margin-top: 30px;
+    }
 
+    .textone {
+        flex-wrap: wrap;
+        gap: 10%;
 
-.horizontal-menu{
-gap: 20px;
-flex-wrap: wrap;
-}
-.icons{
-    margin-left: 32%;
-    margin-top: 30px;
-}
+    }
 
-.textone{
-flex-wrap: wrap;
-gap: 10%;
+    .imagethird {
+        flex-direction: column;
+    }
 
-}
+    .imgfive {
+        /* margin-top: 30px; */
+        padding: unset;
+        width: unset;
+        margin: unset;
+    }
 
-.imagethird{
-    flex-direction: column;
-}
+    .imagefourth {
+        margin: unset;
+        width: unset;
+    }
 
-.imgfive{
-    /* margin-top: 30px; */
-    padding: unset;
-    width: unset;
-    margin: unset;
-}
-.imagefourth{
-    margin: unset;
-    width: unset;
-}
-.imgfive img
-,.imgsix img{
-margin: unset;
-padding-top: 50px;
-}
+    .imgfive img,
+    .imgsix img {
+        margin: unset;
+        padding-top: 50px;
+    }
 
-.imgseven{
-    flex-wrap: wrap;
-gap: 10%;
-}
+    .imgseven {
+        flex-wrap: wrap;
+        gap: 10%;
+    }
 
-.twmain{
-    flex-direction: column;
-}
-.bgtwo{
-    flex-direction: column;
+    .twmain {
+        flex-direction: column;
+    }
 
-}
-.assurance{
-    margin-top: 40%;
-    flex-direction: column;
+    .bgtwo {
+        flex-direction: column;
 
-}
+    }
 
-.assu{
-    flex-direction: column;
+    .assurance {
+        margin-top: 40%;
+        flex-direction: column;
 
-}
-.assu2{
-    gap: 20%;
-}
+    }
 
-.genderimg{
-    flex-wrap: wrap;
-}
-.video-section{
-    flex-wrap: wrap;
+    .assu {
+        flex-direction: column;
 
-}
-.card-carousel{
-    flex-wrap: wrap;
+    }
 
-}
-.iron
-{
-    flex-wrap: wrap;
+    .assu2 {
+        gap: 20%;
+    }
 
-}
+    .genderimg {
+        flex-wrap: wrap;
+    }
 
+    .video-section {
+        flex-wrap: wrap;
 
+    }
 
+    .card-carousel {
+        flex-wrap: wrap;
 
+    }
 
-.footer{
-    height: unset !important;
-}
-
-.footer-social-icons {
-    flex-wrap: wrap !important;
-}
-.footer-icons{
-    flex-wrap: wrap !important;
-}
-.footer-copyright{
-    flex-wrap: wrap !important;
-}
-
-
-.gmain {
-    flex-direction: column;
-    margin-top: 790px;
-}
-.gone{
-    width: 600px;
-}
-
-.gtwo{
-    margin-top: 50px;
-}
-
+    .iron {
+        flex-wrap: wrap;
 
     }
 
@@ -712,104 +809,139 @@ gap: 10%;
 
 
 
+    .footer {
+        height: unset !important;
+    }
 
-    @media screen and (min-width:768px) and (max-width:1024px){
+    .footer-social-icons {
+        flex-wrap: wrap !important;
+    }
 
-        .horizontal-menu{
-            gap: 50px;
-            flex-wrap: wrap;
-        }
+    .footer-icons {
+        flex-wrap: wrap !important;
+    }
 
-
-
-        .textone{
-            flex-wrap: wrap;
-            gap: 50px;
-
-
-        }
-
-
-        .imagethird{
-            flex-wrap: wrap;
-            
-        }
-
-        .imgfive img,.imgsix img{
-            padding-top: 30px;
-            margin: unset;
-        }
+    .footer-copyright {
+        flex-wrap: wrap !important;
+    }
 
 
-        .imgseven{
-            flex-wrap: wrap;
-            gap: 10%;
-        }
+    .gmain {
+        flex-direction: column;
+        margin-top: 790px;
+    }
 
-        .twmain{
-            flex-direction: column;
-        }
-        .bgtwo{
-            flex-direction: column;
-        
-        }
-        .assurance{
-            margin-top: 40%;
-            flex-direction: column;
-        
-        }
+    .gone {
+        width: 600px;
+    }
+
+    .gtwo {
+        margin-top: 50px;
+    }
+
+
+}
 
 
 
-        .assu{
-            flex-direction: column;
-        
-        }
-        .assu2{
-            gap: 20%;
-        }
-        
-        .genderimg{
-            flex-wrap: wrap;
-        }
-        .video-section{
-            flex-wrap: wrap;
-        
-        }
-        .card-carousel{
-            flex-wrap: wrap;
-        
-        }
-        .iron
-        {
-            flex-wrap: wrap;
-        
-        }
 
 
-        .gmain {
-            flex-direction: column;
-            margin-top: 500px;
-        }
-        .gone{
-            width: 600px;
-        }
-        
-        .gtwo{
-            margin-top: 50px;
-        }
-        .genimg{
-            margin-top: 80px;
-        }
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    .horizontal-menu {
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
+
+
+    .textone {
+        flex-wrap: wrap;
+        gap: 50px;
+
+
+    }
+
+
+    .imagethird {
+        flex-wrap: wrap;
+
+    }
+
+    .imgfive img,
+    .imgsix img {
+        padding-top: 30px;
+        margin: unset;
+    }
+
+
+    .imgseven {
+        flex-wrap: wrap;
+        gap: 10%;
+    }
+
+    .twmain {
+        flex-direction: column;
+    }
+
+    .bgtwo {
+        flex-direction: column;
+
+    }
+
+    .assurance {
+        margin-top: 40%;
+        flex-direction: column;
 
     }
 
 
 
+    .assu {
+        flex-direction: column;
+
+    }
+
+    .assu2 {
+        gap: 20%;
+    }
+
+    .genderimg {
+        flex-wrap: wrap;
+    }
+
+    .video-section {
+        flex-wrap: wrap;
+
+    }
+
+    .card-carousel {
+        flex-wrap: wrap;
+
+    }
+
+    .iron {
+        flex-wrap: wrap;
+
+    }
 
 
+    .gmain {
+        flex-direction: column;
+        margin-top: 500px;
+    }
 
+    .gone {
+        width: 600px;
+    }
 
+    .gtwo {
+        margin-top: 50px;
+    }
 
+    .genimg {
+        margin-top: 80px;
+    }
 
-
+}
